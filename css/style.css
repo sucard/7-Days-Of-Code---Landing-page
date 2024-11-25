@@ -1,0 +1,62 @@
+.navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.paginas {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+
+}
+
+.botaomenu {
+    text-decoration: none;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.botaomenu:hover {
+    color: #000;
+}
+
+.botao-usuario {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.entrar {
+    text-decoration: none;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    transition: color 0.3s;
+    padding: 5px;
+}
+
+.entrar:hover {
+    color: #000;
+}
+
+.cadastrar {
+    text-decoration: none;
+    color: #fff;
+    background-color: #B71C1C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    transition: background-color 0.3 ease;
+}
+
+.cadastrar:hover {
+    background-color: #8B0000;
+}
