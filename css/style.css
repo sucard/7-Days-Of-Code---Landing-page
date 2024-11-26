@@ -1,23 +1,32 @@
+:root {
+    --text-color: #555;
+    --main-color: #B71C1C;
+    --main-font: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .navbar-container {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 20px 20px;
-        background-color: #fff;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .paginas {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     padding: 20px;
-
 }
 
 .botaomenu {
     text-decoration: none;
-    color: #555;
-    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    font-family: var(--main-font);
     font-size: 16px;
     transition: color 0.3s;
 }
@@ -34,8 +43,8 @@
 
 .entrar {
     text-decoration: none;
-    color: #555;
-    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    font-family: var(--main-font);
     font-size: 16px;
     transition: color 0.3s;
     padding: 5px;
@@ -45,11 +54,11 @@
     color: #000;
 }
 
-.cadastrar {
+#cadastrar {
     text-decoration: none;
     color: #fff;
-    background-color: #B71C1C;
-    font-family: 'Poppins', sans-serif;
+    background-color: var(--main-color);
+    font-family: var(--main-font);
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
@@ -57,6 +66,41 @@
     transition: background-color 0.3 ease;
 }
 
-.cadastrar:hover {
+#cadastrar:hover {
     background-color: #8B0000;
+}
+
+.cabecalho-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px;
+    gap: 24px;
+}
+
+.secao {
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-weight: 600;
+    size: 16px; 
+}
+
+
+.titulo {
+    font-family: var(--main-font);
+    font-weight: 600;
+    size: 48px;
+}
+
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-nos {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    font-weight: 400;
+    size: 20px;
 }
