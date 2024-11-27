@@ -11,10 +11,10 @@
   }
 
 .navbar-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
 }
 
 .paginas {
@@ -41,7 +41,7 @@
     padding: 20px;
 }
 
-.entrar {
+#entrar {
     text-decoration: none;
     color: var(--text-color);
     font-family: var(--main-font);
@@ -50,7 +50,7 @@
     padding: 5px;
 }
 
-.entrar:hover {
+#entrar:hover {
     color: #000;
 }
 
@@ -78,7 +78,7 @@
     gap: 24px;
 }
 
-.secao {
+#secao {
     color: var(--main-color);
     font-family: var(--main-font);
     font-weight: 600;
@@ -89,7 +89,7 @@
 .titulo {
     font-family: var(--main-font);
     font-weight: 600;
-    size: 48px;
+    font-size: 48px;
 }
 
 .paragrafo {
@@ -103,4 +103,44 @@
     color: var(--text-color);
     font-weight: 400;
     size: 20px;
+}
+
+.metricas-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: flex-start;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    padding: 40px;
+    gap: 30px;
+    font-family: var(--main-font);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.6 ease;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.valores {
+    color: var(--main-color);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.sub-titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.texto {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0;
 }
