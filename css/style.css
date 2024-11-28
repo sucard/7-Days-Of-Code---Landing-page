@@ -78,11 +78,11 @@
     gap: 24px;
 }
 
-#secao {
+#secao-sobre {
     color: var(--main-color);
     font-family: var(--main-font);
     font-weight: 600;
-    size: 16px; 
+    font-size: 16px; 
 }
 
 
@@ -143,4 +143,51 @@
     font-weight: 400;
     font-size: 16px;
     padding: 10px 0;
+}
+
+
+.vagas-container {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    font-family: var(--main-font);
+}
+
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.secao-talentos {
+    background-color: #8E24240D;
+    color: var(--main-color);
+    padding: 7px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform 0.3 ease;
+}
+
+.secao-talentos:hover {
+    transform: scale(1.05);
+}
+
+.titulo-talentos {
+    font-weight: 600;
+    font-size: 38px;   
+}
+
+.descricao-talentos {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.talentos img {    
+    width: 100%;
+    gap: 40px;
+    padding: 20px;
 }
