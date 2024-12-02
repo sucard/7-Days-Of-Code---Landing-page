@@ -262,3 +262,67 @@
     color: var(--text-color);
     font-weight: 500;
 }
+
+.depoimento {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: #8E24240D;
+    padding: 30px;
+    gap: 24px;
+    width: 95%;
+    border-radius: 16px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--main-font);
+}
+
+.titulo-depoimento {
+    display: flex;
+    justify-self: center;
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 24px; 
+}
+
+.texto-depoimento {
+    display: flex;
+    text-align: center;
+    padding: 16px;
+    font-size: 36px;
+    font-weight: 400;
+    width: 1200px;
+}
+
+.colaborador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.colaborador img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#nome {
+    padding: 20px 0 0 0;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#cargo {
+    font-family: var(--main-font);
+    font-weight: 300;
+    color: var(--text-color);
+    font-size: 14px;
+}
