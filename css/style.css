@@ -326,3 +326,63 @@
     color: var(--text-color);
     font-size: 14px;
 }
+
+.oportunidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    font-family: var(--main-font);
+}
+
+.titulo-oportunidades {
+    font-weight: 600;
+    font-size: 38px;
+    padding: 20px;
+}
+
+.texto-oportunidades {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+    padding: 20px;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-around; 
+    gap: 16px;
+}
+
+.newsletter input {
+    outline: none;
+    border: 1px solid #D0D5DD;
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.newsletter button {
+    border: none;
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 16px;
+    width: 120px;
+    padding: 5px;
+    transition: transform 0.3 ease;
+}
+
+.newsletter button:hover {
+    background-color: #8B0000;
+}
+
+#copyright {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-color);
+    padding: 24px;
+}
